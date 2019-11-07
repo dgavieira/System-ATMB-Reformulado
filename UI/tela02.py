@@ -50,8 +50,13 @@ class ScreenHistorico:
 
         self.botao_cinco = Button(master)
         self.botao_cinco["text"] = "?"
-        self.botao_cinco[""]
+        self.botao_cinco["font"] = self.fonte_padrao
+        self.botao_cinco.grid(row = 5, column = 6, sticky = NW)
 
+        self.botao_seis = Button(master)
+        self.botao_seis["text"] = "Exercícios"
+        self.botao_seis["font"] = self.fonte_padrao
+        self.botao_seis.grid(row = 6, column = 6, sticky = NW)
 root = Tk()
 root.title("Histórico da Musicografia Braille")
 ScreenHistorico(root)
