@@ -61,3 +61,6 @@ root = Tk()
 root.title("Histórico da Musicografia Braille")
 ScreenHistorico(root)
 root.mainloop()
+
+if __name__ == "__main__": #permite executar esse script como principal
+    telaum()
